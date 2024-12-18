@@ -1,7 +1,7 @@
 import { debuglog } from 'util';
 import { createSign, createVerify, randomUUID } from 'crypto';
 import type { Readable } from 'stream';
-import type { ReadableStream } from 'stream/web';
+import type { ReadableStream } from 'web-streams-polyfill';
 import { YYYYMMDDHHmmss } from 'utility';
 import snakeCaseKeys from 'snakecase-keys';
 import CryptoJS from 'crypto-js';

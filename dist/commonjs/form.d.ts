@@ -1,3 +1,5 @@
+/// <reference types="node" />
+/// <reference types="node" />
 import { Readable } from 'stream';
 export interface IFile {
     /** 文件名 */

@@ -1,5 +1,7 @@
+/// <reference types="node" />
+/// <reference types="node" />
 import type { Readable } from 'stream';
-import type { ReadableStream } from 'stream/web';
+import type { ReadableStream } from 'web-streams-polyfill';
 import type { AlipaySdkConfig } from './types.js';
 export declare const ALIPAY_ALGORITHM_MAPPING: {
     RSA: string;
@@ -26,6 +28,6 @@ export declare function signatureV3(signString: string, appPrivateKey: string): 
 /** OpenAPI 3.0 验签，使用支付宝公钥验证签名 */
 export declare function verifySignatureV3(signString: string, expectedSignature: string, alipayPublicKey: string): boolean;
 export declare function createRequestId(): string;
-export declare function readableToBytes(stream: Readable | ReadableStream): Promise<Buffer<ArrayBuffer>>;
+export declare function readableToBytes(stream: Readable | ReadableStream): Promise<Buffer>;
 export declare function decamelize(text: string): string;
 export {};

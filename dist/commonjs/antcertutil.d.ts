@@ -1,3 +1,4 @@
+/// <reference types="node" />
 /** 从公钥证书文件里读取支付宝公钥 */
 export declare function loadPublicKeyFromPath(filePath: string): string;
 /** 从公钥证书内容或 Buffer 读取支付宝公钥 */

@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { ProxyAgent } from 'urllib';
 export type AlipaySdkSignType = 'RSA2' | 'RSA';
 /**
