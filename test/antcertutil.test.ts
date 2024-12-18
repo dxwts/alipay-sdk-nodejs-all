@@ -1,4 +1,4 @@
-import { strict as assert } from 'node:assert';
+import { strict as assert } from 'assert';
 import urllib from 'urllib';
 import { getSNFromPath, getSN, loadPublicKey, loadPublicKeyFromPath } from '../src/antcertutil.js';
 import {

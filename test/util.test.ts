@@ -1,4 +1,4 @@
-import { strict as assert } from 'node:assert';
+import { strict as assert } from 'assert';
 import { sign, aesDecryptText, aesEncryptText } from '../src/util.js';
 import { readFixturesFile } from './helper.js';
 

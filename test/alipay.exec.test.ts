@@ -1,6 +1,6 @@
-import { Verify } from 'node:crypto';
-import { strict as assert } from 'node:assert';
-import fs from 'node:fs';
+import { Verify } from 'crypto';
+import { strict as assert } from 'assert';
+import fs from 'fs';
 import urllib, { MockAgent, setGlobalDispatcher, getGlobalDispatcher } from 'urllib';
 import mm from 'mm';
 import {

@@ -1,6 +1,6 @@
-import { debuglog } from 'node:util';
-import { createVerify, randomUUID } from 'node:crypto';
-import { Readable } from 'node:stream';
+import { debuglog } from 'util';
+import { createVerify, randomUUID } from 'crypto';
+import { Readable } from 'stream';
 import urllib, { Agent, IncomingHttpHeaders } from 'urllib';
 import type {
   HttpClientResponse, HttpMethod, RequestOptions, RawResponseWithMeta,

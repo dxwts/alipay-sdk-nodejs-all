@@ -1,4 +1,4 @@
-import { strict as assert } from 'node:assert';
+import { strict as assert } from 'assert';
 import {
   AlipaySdk, AlipayFormData, AlipayRequestError,
   type AlipaySdkConfig,

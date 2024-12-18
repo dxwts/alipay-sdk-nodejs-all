@@ -1,5 +1,5 @@
-import fs from 'node:fs';
-import { createHash } from 'node:crypto';
+import fs from 'fs';
+import { createHash } from 'crypto';
 import { BigNumber } from 'bignumber.js';
 import { Certificate } from '@fidm/x509';
 
